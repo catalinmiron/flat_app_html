@@ -4,6 +4,5 @@
 config/database.yml
 db/schema.rb
 tmp/**/*
-bower_components/
 .sass-cache/
 config.codekit
