@@ -10549,20 +10549,25 @@ section {
 /* line 53, ../scss/app.scss */
 .band.slider {
   background-color: #dda56c;
+  padding-bottom: 0 !important;
 }
 /* line 56, ../scss/app.scss */
+.band.slider img {
+  margin-bottom: 0 !important;
+}
+/* line 60, ../scss/app.scss */
 .band.contact {
   background-color: #2e2e2e;
 }
-/* line 59, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .band.copyrights {
   background-color: #171717;
 }
-/* line 61, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .band.copyrights p {
   margin-bottom: 0;
 }
-/* line 66, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .band.light h1, .band.light h2, .band.light h3, .band.light h4, .band.light h5, .band.light h6, .band.light p, .band.light span {
   color: white !important;
 }

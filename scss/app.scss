@@ -52,6 +52,10 @@ section {
   }
   &.slider {
     background-color: #dda56c;
+    padding-bottom: 0 !important;
+    img {
+      margin-bottom: 0 !important;
+    }
   }
   &.contact {
     background-color: #2e2e2e;
