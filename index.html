@@ -8,8 +8,8 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="band hero">
-      <div class="row">
+    <div class="band hero light">
+      <div class="row top-navigation">
         <nav class="top-bar" data-topbar>
           <ul class="title-area">
             <li class="name">
@@ -17,80 +17,81 @@
             </li>
             <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
           </ul>
-
-          <section class="top-bar-section">
+          <div class="top-bar-section">
             <!-- Right Nav Section -->
             <ul class="right">
-              <li class="active"><a href="#">Home</a></li>
-              <li>
-                <a href="#">Link</a>
+              <li class="active">
+                <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">Link</a>
+                <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Link</a>
+                <a href="#">Services</a>
               </li>
               <li>
-                <a href="#">Link</a>
+                <a href="#">Features</a>
+              </li>
+              <li>
+                <a href="#">Price</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Login</a>
               </li>
             </ul>
 
-          </section>
+          </div>
         </nav>
       </div> <!-- end top bar -->
-      <div class="row">
-        <div class="large-5 columns">
-          <img src="images/hero_image.png" alt="Want to find out more about flat app website ?">
-        </div>
-        <div class="large-7 columns">
+      <div class="row hero-slider">
+        <div class="large-7 columns right hero-details">
           <h2>Gummi Bears Marzipan Caramels</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, excepturi quas nihil nemo deleniti ex illo ut odio? Sapiente, quam, quis odit eos ut alias libero saepe accusamus doloremque quaerat.</p>
-          <!-- Size Classes: [tiny small large] -->
-          <!-- Radius Classes: [radius round] -->
-          <!-- Color Classes: [secondary success alert] -->
-          <!-- Disabled Class: disabled -->
-          <a href="#" class="button success small"><i class="fa fa-heart"></i> PURCHASE NOW</a>
-          <span>or</span>
-          <a href="#" class="button alert small"><i class="fa fa-leaf"></i> LEARN NOW</a>
+          <p>Lollipop liquorice lollipop ice cream cheesecake halvah jelly-o. Gummies lollipop macaroon marshmallow icing. Cookie chupa chups cake dessert lollipop marzipan donut apple pie. Cookie cotton candy oat cake sweet roll topping apple pie marzipan.</p>
+          <a href="#" class="button success small"><i class="fa fa-shopping-cart"></i> PURCHASE NOW</a>
+          <a href="#" class="button alert small"><i class="fa fa-info-circle"></i> LEARN NOW</a>
+        </div>
+        <div class="large-5 columns left">
+          <img src="images/hero_image.png" alt="Want to find out more about flat app website ?">
         </div>
       </div> <!-- end hero slider -->
     </div>
 
     <section class="about">
       <div class="row">
-        <div class="large-8 columns">
+        <div class="medium-4 large-4 columns right">
+          <img src="images/about_icon.png" alt="About flat app">
+        </div>
+        <div class="medium-6 large-6 columns left">
           <h3>ABOUT US</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, et id in ab ullam quaerat cupiditate obcaecati explicabo provident quasi.</p>
-          <!-- Button Group Optional Classes: [radius round] -->
+          <p>
+            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+          </p>
           <ul class="inline-list">
-            <!-- Button Color Classes: [secondary alert success] -->
-            <!-- Button Size Classes: [tiny small large] -->
             <li><a href="#" class="twitter" title="twitter"><img src="images/social/twitter.png" alt="Twitter"></a></li>
             <li><a href="#" class="facebook" title="facebook"><img src="images/social/facebook.png" alt="Facebook"></a></li>
             <li><a href="#" class="dribbble" title="dribbble"><img src="images/social/dribbble.png" alt="Dribble"></a></li>
             <li><a href="#" class="pinterest" title="pinterest"><img src="images/social/pinterest.png" alt="Pinterest"></a></li>
           </ul>
         </div>
-        <div class="large-4 columns">
-          <img src="images/about_icon.png" alt="About flat app">
-        </div>
       </div>
     </section>
 
     <section class="band services">
       <div class="row">
-        <div class="large-4 columns text-center">
+        <div class="medium-4 columns text-center">
           <img src="images/service_icon_1.png" alt="Service 1">
           <h4>Title goes here</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, deserunt, cumque corporis enim numquam minima quo deleniti maxime nam necessitatibus.</p>
         </div>
-        <div class="large-4 columns text-center">
+        <div class="medium-4 columns text-center">
           <img src="images/service_icon_2.png" alt="Service 2">
           <h4>Title goes here</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, deserunt, cumque corporis enim numquam minima quo deleniti maxime nam necessitatibus.</p>
         </div>
-        <div class="large-4 columns text-center">
+        <div class="medium-4 columns text-center">
           <img src="images/service_icon_3.png" alt="Service 3">
           <h4>Title goes here</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, deserunt, cumque corporis enim numquam minima quo deleniti maxime nam necessitatibus.</p>
@@ -98,21 +99,18 @@
       </div>
     </section>
 
-    <section class="slider">
-      <div class="row">
-        <ul class="slider">
-          <li class="text-center">
-            <h2>Lorem ipsum dolor sit.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere.</p>
-            <img src="images/feature_slide.jpg" alt="Flat App on google">
-          </li>
+    <section class="band slider light">
+      <div class="row slider text-center">
+          <h2>Lorem ipsum dolor sit.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere.</p>
+          <img src="images/feature_slide.jpg" alt="Flat App on google">
         </ul>
       </div>
     </section>
 
     <section class="band pricing">
       <div class="row push-1">
-        <div class="large-3 columns">
+        <div class="medium-3 columns">
           <ul class="pricing-table">
             <li class="title">Economy</li>
             <li class="price">5$</li>
@@ -124,7 +122,7 @@
             <li class="cta-button"><a class="button" href="#">Sign Up</a></li>
           </ul>
         </div>
-        <div class="large-3 columns">
+        <div class="medium-3 columns">
           <ul class="pricing-table">
             <li class="title">Personal</li>
             <li class="price">15$</li>
@@ -136,7 +134,7 @@
             <li class="cta-button"><a class="button" href="#">Sign Up</a></li>
           </ul>
         </div>
-        <div class="large-3 columns">
+        <div class="medium-3 columns">
           <ul class="pricing-table">
             <li class="title">Business</li>
             <li class="price">20$</li>
@@ -152,23 +150,18 @@
       </div>
     </section>
 
-    <section class="band contact">
+    <section class="band contact light">
       <div class="row text-center">
         <h3>CONTACT US</h3>
-        <ul class="inline-list left">
-          <li>
-            <p>Dori street, Blcok 15B, 1c Polda, Raya bandar Language</p>
-          </li>
-          <li>
-            <p>(0271) 123 - 456</p>
-          </li>
-          <li>
-            <p>company-email@gmail.com</p>
-          </li>
-        </ul>
+        <div class="medium-6 columns text-left">
+          <p>Dori street, Blcok 15B, 1c Polda, Raya bandar Language</p>
+        </div>
+        <div class="medium-6 columns text-left">
+          <p>(0271) 123 - 456 | company-email@gmail.com</p>
+        </div>
       </div>
       <form class="row">
-        <div class="large-6 columns">
+        <div class="medium-6 columns">
           <label>
             <input type="text" placeholder="Your name*" required />
           </label>
@@ -184,7 +177,7 @@
             </select>
           </label>
         </div>
-        <div class="large-6 columns">
+        <div class="medium-6 columns">
           <label>
             <textarea rows="10"></textarea>
           </label>
@@ -192,10 +185,10 @@
       </form>
     </section>
 
-    <section class="band copyrights">
+    <footer class="band light copyrights">
       <p class="text-center">&copy; 2013-2014. All right reserved. Made with <i class="fa fa-heart"></i> by <a href="http://www.mironc.com"> Catalin M.</a></p>
 
-    </section>
+    </footer>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>

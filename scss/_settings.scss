@@ -131,8 +131,8 @@ $body-font-family: "Roboto","Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
+$h2-font-size: rem-calc(30);
+$h3-font-size: rem-calc(22);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
@@ -150,7 +150,7 @@ $body-font-family: "Roboto","Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: $font-weight-normal;
+$paragraph-font-weight: 300;
 // $paragraph-font-size: 1rem;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
@@ -574,8 +574,8 @@ $body-font-family: "Roboto","Helvetica Neue", "Helvetica", Helvetica, Arial, san
 // $inline-list-top-margin: 0;
 // $inline-list-opposite-margin: 0;
 // $inline-list-bottom-margin: rem-calc(17);
-// $inline-list-default-float-margin: rem-calc(-22);
-// $inline-list-default-float-list-margin: rem-calc(22);
+$inline-list-default-float-margin: rem-calc(-10);
+$inline-list-default-float-list-margin: rem-calc(10);
 
 // $inline-list-padding: 0;
 
@@ -1178,38 +1178,38 @@ $body-font-family: "Roboto","Helvetica Neue", "Helvetica", Helvetica, Arial, san
 
 // Background color for the top bar
 $topbar-bg-color: transparent;
-// $topbar-bg: $topbar-bg-color;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 // $topbar-height: 45px;
-// $topbar-margin-bottom: 0;
+$topbar-margin-bottom: 10px;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: $font-weight-normal;
-// $topbar-title-font-size: rem-calc(17);
+$topbar-title-font-size: rem-calc(18);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
+$topbar-dropdown-bg: transparent;
 // $topbar-dropdown-link-color: #fff;
-// $topbar-dropdown-link-bg: #333;
+// $topbar-dropdown-link-bg: red;
 // $topbar-dropdown-link-weight: $font-weight-normal;
-// $topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
-// $topbar-link-color-active-hover: #fff;
-// $topbar-link-weight: $font-weight-normal;
-// $topbar-link-font-size: rem-calc(13);
-// $topbar-link-hover-lightness: -10%; // Darken by 10%
-// $topbar-link-bg: $topbar-bg;
-// $topbar-link-bg-color-hover: #272727;
-// $topbar-link-bg-hover: #272727;
-// $topbar-link-bg-active: $primary-color;
-// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-color: #fff;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: #999;
+$topbar-link-color-active-hover: #ddd;
+$topbar-link-weight: 300;
+$topbar-link-font-size: 16px;
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg: none;
+$topbar-link-bg-color-hover: none;
+$topbar-link-bg-hover: none;
+$topbar-link-bg-active: none;
+$topbar-link-bg-active-hover: none;
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
@@ -1225,15 +1225,15 @@ $topbar-bg-color: transparent;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
-// $topbar-menu-link-font-size: rem-calc(13);
+// $topbar-menu-link-font-size: rem-calc(25);
 // $topbar-menu-link-weight: $font-weight-bold;
-// $topbar-menu-link-color: #fff;
+$topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
 // Transitions and breakpoint styles
-// $topbar-transition-speed: 300ms;
+$topbar-transition-speed: 500ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
 // $topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
 // $topbar-media-query: $medium-up;
