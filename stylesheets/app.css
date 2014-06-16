@@ -5850,7 +5850,7 @@ h2 {
 
 /* line 266, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.0625rem;
+  font-size: 0.9375rem;
 }
 
 /* line 267, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -6092,7 +6092,7 @@ blockquote p {
 
   /* line 446, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
   }
 
   /* line 447, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -10534,40 +10534,51 @@ section {
 .band img {
   margin: 30px 0;
 }
-/* line 44, ../scss/app.scss */
+/* line 45, ../scss/app.scss */
+.band.light h1, .band.light h2, .band.light h3, .band.light h4, .band.light h5, .band.light h6, .band.light p, .band.light span {
+  color: white !important;
+}
+/* line 49, ../scss/app.scss */
 .band.pricing {
   background-color: #f6f6f7;
 }
-/* line 47, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .band.services {
   background-color: #f6f6f7;
 }
-/* line 48, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 .band.services img {
   margin-top: 0;
 }
-/* line 53, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
 .band.slider {
   background-color: #dda56c;
   padding-bottom: 0 !important;
 }
-/* line 56, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 .band.slider img {
   margin-bottom: 0 !important;
 }
-/* line 60, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .band.contact {
   background-color: #2e2e2e;
 }
-/* line 63, ../scss/app.scss */
-.band.copyrights {
-  background-color: #171717;
-}
-/* line 65, ../scss/app.scss */
-.band.copyrights p {
-  margin-bottom: 0;
+/* line 67, ../scss/app.scss */
+.band.contact h3 {
+  margin-bottom: 30px;
 }
 /* line 70, ../scss/app.scss */
-.band.light h1, .band.light h2, .band.light h3, .band.light h4, .band.light h5, .band.light h6, .band.light p, .band.light span {
-  color: white !important;
+.band.contact p {
+  font-size: 13px;
+}
+/* line 74, ../scss/app.scss */
+.band.copyrights {
+  background-color: #171717;
+  font-size: 14px;
+  padding: 20px 0;
+}
+/* line 78, ../scss/app.scss */
+.band.copyrights a, .band.copyrights p {
+  color: #999 !important;
+  margin-bottom: 0;
 }
